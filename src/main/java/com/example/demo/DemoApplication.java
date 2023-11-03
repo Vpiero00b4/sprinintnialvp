@@ -1,14 +1,13 @@
-package pe.edu.continental.demo;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MiPrimerTrabajoConFormulariosConThymeleafApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MiPrimerTrabajoConFormulariosConThymeleafApplication.class, args);
-
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
